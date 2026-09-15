@@ -1,0 +1,25 @@
+# Never commit data, checkpoints, or credentials.
+work/
+raw/
+interim/
+processed/
+checkpoints/
+artifacts/
+native/
+*.parquet
+*.jsonl
+*.safetensors
+*.bin
+*.ckpt
+
+.env
+*.token
+hf_token*
+.hf_token
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+venv/
+.venv/
