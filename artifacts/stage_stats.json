@@ -1,0 +1,29 @@
+{
+  "stage1": {
+    "rows_out": 138032
+  },
+  "stage3": {
+    "rows_out": 137954,
+    "seconds": 83
+  },
+  "stage4": {
+    "rows_in": 137954,
+    "hate": 21322,
+    "nonhate": 102511,
+    "discarded": 14121
+  },
+  "stage5": {
+    "rows_in": 123833,
+    "rows_out": 104061,
+    "removed": 19772
+  },
+  "stage67": {
+    "balanced_total": 37846,
+    "per_class": 18923,
+    "splits": {
+      "train": 30336,
+      "validation": 3793,
+      "test": 3717
+    }
+  }
+}

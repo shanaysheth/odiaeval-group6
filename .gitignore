@@ -1,16 +1,22 @@
-# Never commit data, checkpoints, or credentials.
+# Data and checkpoints are NOT committed — too large, and regenerable.
 work/
 raw/
 interim/
 processed/
 checkpoints/
-artifacts/
 native/
 *.parquet
 *.jsonl
 *.safetensors
 *.bin
 *.ckpt
+
+# Results artefacts ARE committed: they are what makes the reported numbers
+# verifiable. JSON only — nothing large.
+!artifacts/
+!artifacts/*.json
+!logs/
+!logs/*.txt
 
 .env
 *.token
