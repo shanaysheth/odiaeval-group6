@@ -2,6 +2,19 @@
   "stage1": {
     "rows_out": 138032
   },
+  "stage2": {
+    "rows_in": 138032,
+    "rows_out": 137954,
+    "dropped": {
+      "malformed": 0,
+      "empty": 0,
+      "too_short": 0,
+      "too_long": 60,
+      "low_purity": 18
+    },
+    "duplicate_ids": 0,
+    "note": "recomputed by verify_stage2.py: stage 2 was cached on the final run so its stats were not recorded inline. Deterministic given the same raw inputs and gates."
+  },
   "stage3": {
     "rows_out": 137954,
     "seconds": 83
